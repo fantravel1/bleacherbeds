@@ -92,7 +92,7 @@
       <div class="container">
         <h2>Upcoming Events</h2>
         <div class="events-list">
-          <!-- Sample events - in production these would be dynamically generated -->
+          <!-- Events data from /data/events.json -->
           <article class="event-card-large">
             <div class="event-badge">HOT</div>
             <div class="event-content">
@@ -113,7 +113,7 @@
                   <li>Cheapest BleacherBeds: Fan Village (0.3 mi) — $75/night</li>
                 </ul>
               </div>
-              <a href="#" class="btn btn-primary">View All Beds</a>
+              <a href="/events/super-bowl-lviii/" class="btn btn-primary">View All Beds</a>
             </div>
           </article>
 
@@ -121,18 +121,23 @@
             <div class="event-badge">NEW</div>
             <div class="event-content">
               <div class="event-header">
-                <h3>NBA Finals Game 5</h3>
-                <p class="event-date">June 17, 2025 • 9:00 PM ET</p>
+                <h3>NCAA Final Four</h3>
+                <p class="event-date">April 6-8, 2025</p>
               </div>
               <div class="event-details">
-                <p><strong>Venue:</strong> TBD (determined by playoffs)</p>
-                <p><strong>Available Beds:</strong> TBD</p>
-                <p><strong>Price Range:</strong> Starting at $60/night</p>
+                <p><strong>Venue:</strong> Caesars Superdome, New Orleans, LA</p>
+                <p><strong>Available Beds:</strong> 300+ beds (multi-night discounts available)</p>
+                <p><strong>Price Range:</strong> $85-$150/night for multi-night stays</p>
               </div>
               <div class="event-closest-bed">
-                <p><strong>Note:</strong> Finals location determined during playoffs. BleacherBeds will activate in the host city.</p>
+                <p><strong>Closest Real Beds:</strong></p>
+                <ul>
+                  <li>Hotel: Hyatt Regency (0.1 mi) — $320/night</li>
+                  <li>Hostel: HI New Orleans (0.3 mi) — $65/night</li>
+                  <li>Cheapest BleacherBeds: Dorm (0.2 mi) — $85/night</li>
+                </ul>
               </div>
-              <a href="#" class="btn btn-primary">Set Event Alert</a>
+              <a href="/events/ncaa-final-four/" class="btn btn-primary">View All Beds</a>
             </article>
 
           <article class="event-card-large">
@@ -158,20 +163,73 @@
 
           <article class="event-card-large">
             <div class="event-header">
-              <h3>NCAA March Madness - Final Four</h3>
-              <p class="event-date">April 6-8, 2025</p>
+              <h3>NBA Finals</h3>
+              <p class="event-date">June 17, 2025 • 9:00 PM ET</p>
             </div>
             <div class="event-details">
-              <p><strong>Venue:</strong> Caesars Superdome, New Orleans, LA</p>
-              <p><strong>Available Beds:</strong> 300+ beds (multi-night discounts available)</p>
-              <p><strong>Price Range:</strong> $85-$150/night for multi-night stays</p>
+              <p><strong>Venue:</strong> TBD (determined by playoffs)</p>
+              <p><strong>Available Beds:</strong> TBD - typically 250-400+</p>
+              <p><strong>Price Range:</strong> Starting at $60/night</p>
+            </div>
+            <div class="event-closest-bed">
+              <p><strong>Note:</strong> Finals location determined during playoffs. BleacherBeds will activate in the host city. Check back during playoffs.</p>
+            </div>
+            <a href="#" class="btn btn-primary">Set Event Alert</a>
+          </article>
+
+          <article class="event-card-large">
+            <div class="event-header">
+              <h3>Stanley Cup Finals Game 1</h3>
+              <p class="event-date">May 24, 2025 • 8:00 PM ET</p>
+            </div>
+            <div class="event-details">
+              <p><strong>Venue:</strong> TBD (host city)</p>
+              <p><strong>Available Beds:</strong> 200-350 expected</p>
+              <p><strong>Price Range:</strong> Starting at $70/night</p>
+            </div>
+            <div class="event-closest-bed">
+              <p><strong>Note:</strong> The Stanley Cup goes to the champion's home city. BleacherBeds will have options in both playoff cities.</p>
+            </div>
+            <a href="#" class="btn btn-primary">Set Event Alert</a>
+          </article>
+
+          <article class="event-card-large">
+            <div class="event-header">
+              <h3>Coachella Valley Music Festival</h3>
+              <p class="event-date">April 12-13 & 19-20, 2025</p>
+            </div>
+            <div class="event-details">
+              <p><strong>Venue:</strong> Empire Polo Club, Indio, CA</p>
+              <p><strong>Available Beds:</strong> 400+ for multi-day stays</p>
+              <p><strong>Price Range:</strong> $60-$120/night</p>
             </div>
             <div class="event-closest-bed">
               <p><strong>Closest Real Beds:</strong></p>
               <ul>
-                <li>Hotel: Hyatt Regency (0.1 mi) — $320/night</li>
-                <li>Hostel: HI New Orleans (0.3 mi) — $65/night</li>
-                <li>Cheapest BleacherBeds: Dorm (0.2 mi) — $85/night</li>
+                <li>Hotel: Renaissance (10 mi) — $250+/night</li>
+                <li>Hostel: Coachella Valley (5 mi) — $50/night</li>
+                <li>Cheapest BleacherBeds: Festival Village (1 mi) — $60/night</li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-primary">View All Beds</a>
+          </article>
+
+          <article class="event-card-large">
+            <div class="event-header">
+              <h3>Super Bowl LIX</h3>
+              <p class="event-date">February 9, 2026 • 6:30 PM ET</p>
+            </div>
+            <div class="event-details">
+              <p><strong>Venue:</strong> MetLife Stadium, East Rutherford, NJ</p>
+              <p><strong>Available Beds:</strong> 400+ rooms in 25+ facilities</p>
+              <p><strong>Price Range:</strong> $80-$250/night (vs. hotels at $400-$1000+)</p>
+            </div>
+            <div class="event-closest-bed">
+              <p><strong>Closest Real Beds:</strong></p>
+              <ul>
+                <li>Hotel: Secaucus Hilton (0.5 mi) — $500+/night</li>
+                <li>Hostel: NYC (10 mi) — $75/night</li>
+                <li>Cheapest BleacherBeds: MetLife Hub (0.6 mi) — $80/night</li>
               </ul>
             </div>
             <a href="#" class="btn btn-primary">View All Beds</a>
@@ -183,7 +241,7 @@
     <!-- More Events -->
     <section class="pagination-section">
       <div class="container">
-        <p>Showing 1-4 of 150+ upcoming events across 50+ cities.</p>
+        <p>Showing 1-7 of 150+ upcoming events across 50+ cities worldwide.</p>
         <button class="btn btn-secondary">Load More Events</button>
       </div>
     </section>
