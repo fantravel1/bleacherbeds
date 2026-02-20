@@ -12,6 +12,8 @@
   <link rel="preload" href="../../css/style.css" as="style">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/maps.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F3DF;</text></svg>">
 </head>
 
@@ -222,6 +224,31 @@
       </div>
     </section>
 
+    <!-- Interactive Map -->
+    <section class="map-detail-section">
+      <div class="container">
+        <h2>Venue & Facility Map</h2>
+        <p class="map-subtitle">See Caesars Superdome and all nearby BleacherBeds facilities. The dashed circle shows approximate walking distance (~0.5 miles).</p>
+        <div class="map-detail-wrapper">
+          <div id="venue-map" class="venue-detail-map" data-venue-id="caesars-superdome" role="application" aria-label="Map showing Caesars Superdome and nearby BleacherBeds facilities"></div>
+        </div>
+        <div class="map-detail-legend">
+          <div class="legend-item">
+            <span class="legend-icon legend-venue">&#x1F3DF;</span>
+            <span>Caesars Superdome</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-icon legend-facility">&#x1F6CF;</span>
+            <span>BleacherBeds Facility</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-circle"></span>
+            <span>Walking Distance</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA -->
     <section class="cta-section" aria-labelledby="cta-heading">
       <div class="container">
@@ -282,6 +309,8 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="../../js/main.js" defer></script>
+  <script src="../../js/maps.js" defer></script>
 </body>
 </html>
