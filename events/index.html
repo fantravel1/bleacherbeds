@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BleacherBeds Events - Find Overflow Beds for Your Next Game</title>
+  <meta name="description" content="Search BleacherBeds events by city, date, or sport. Find safe, affordable overflow beds within walking distance of your favorite events.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://bleacherbeds.com/events/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="../css/style.css" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F3DF;</text></svg>">
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <a href="/" class="logo" aria-label="BleacherBeds Home">
+          <span class="logo-icon" aria-hidden="true">&#x1F3DF;</span>
+          <span class="logo-text">Bleacher<strong>Beds</strong></span>
+        </a>
+        <nav class="main-nav" role="navigation" aria-label="Main navigation">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <ul id="nav-menu" class="nav-menu" role="menubar">
+            <li role="none"><a href="/venues/" role="menuitem">Venues</a></li>
+            <li role="none"><a href="/events/" role="menuitem">Events</a></li>
+            <li role="none"><a href="/cities/" role="menuitem">Cities</a></li>
+            <li role="none"><a href="/closest-bed/" role="menuitem">Closest Bed</a></li>
+            <li role="none"><a href="/safety/" role="menuitem">Safety</a></li>
+            <li role="none"><a href="/faq/" role="menuitem">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" role="main">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Find Your Next Event</p>
+          <h1 id="hero-heading">Find Safe, Affordable Beds Near Your Game</h1>
+          <p class="hero-description">Search upcoming events by date, city, or sport. See all available BleacherBeds options plus the closest hotel, hostel, and rental for every event.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advanced Search -->
+    <section class="search-section">
+      <div class="container">
+        <div class="search-form">
+          <div class="search-input-group">
+            <input type="text" placeholder="City, venue, or event..." aria-label="Search by city, venue, or event">
+            <button aria-label="Search">🔍</button>
+          </div>
+          <div class="search-filters">
+            <div class="filter-group">
+              <label for="date-range">Date Range:</label>
+              <input type="date" id="date-range" aria-label="Filter by date">
+            </div>
+            <div class="filter-group">
+              <label for="sport-type">Sport/Event Type:</label>
+              <select id="sport-type" aria-label="Filter by sport or event type">
+                <option>All Events</option>
+                <option>NFL</option>
+                <option>NBA</option>
+                <option>NHL</option>
+                <option>Soccer</option>
+                <option>College Sports</option>
+                <option>Concerts & Festivals</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events Grid -->
+    <section class="events-section">
+      <div class="container">
+        <h2>Upcoming Events</h2>
+        <div class="events-list">
+          <!-- Events data from /data/events.json -->
+          <article class="event-card-large">
+            <div class="event-badge">HOT</div>
+            <div class="event-content">
+              <div class="event-header">
+                <h3>Super Bowl LVIII</h3>
+                <p class="event-date">February 11, 2025 • 6:30 PM ET</p>
+              </div>
+              <div class="event-details">
+                <p><strong>Venue:</strong> Allegiant Stadium, Las Vegas, NV</p>
+                <p><strong>Available Beds:</strong> 500+ rooms in 30+ facilities</p>
+                <p><strong>Price Range:</strong> $75-$200/night (vs. hotels at $300-$800+)</p>
+              </div>
+              <div class="event-closest-bed">
+                <p><strong>Closest Real Beds:</strong></p>
+                <ul>
+                  <li>Hotel: Caesars Palace (0.2 mi) — $450/night</li>
+                  <li>Hostel: The Arts (0.5 mi) — $95/night</li>
+                  <li>Cheapest BleacherBeds: Fan Village (0.3 mi) — $75/night</li>
+                </ul>
+              </div>
+              <a href="/events/super-bowl-lviii/" class="btn btn-primary">View All Beds</a>
+            </div>
+          </article>
+
+          <article class="event-card-large">
+            <div class="event-badge">NEW</div>
+            <div class="event-content">
+              <div class="event-header">
+                <h3>NCAA Final Four</h3>
+                <p class="event-date">April 6-8, 2025</p>
+              </div>
+              <div class="event-details">
+                <p><strong>Venue:</strong> Caesars Superdome, New Orleans, LA</p>
+                <p><strong>Available Beds:</strong> 300+ beds (multi-night discounts available)</p>
+                <p><strong>Price Range:</strong> $85-$150/night for multi-night stays</p>
+              </div>
+              <div class="event-closest-bed">
+                <p><strong>Closest Real Beds:</strong></p>
+                <ul>
+                  <li>Hotel: Hyatt Regency (0.1 mi) — $320/night</li>
+                  <li>Hostel: HI New Orleans (0.3 mi) — $65/night</li>
+                  <li>Cheapest BleacherBeds: Dorm (0.2 mi) — $85/night</li>
+                </ul>
+              </div>
+              <a href="/events/ncaa-final-four/" class="btn btn-primary">View All Beds</a>
+            </article>
+
+          <article class="event-card-large">
+            <div class="event-header">
+              <h3>Champions League Final</h3>
+              <p class="event-date">June 1, 2025 • 3:00 PM UTC</p>
+            </div>
+            <div class="event-details">
+              <p><strong>Venue:</strong> Millennium Stadium, Cardiff, Wales</p>
+              <p><strong>Available Beds:</strong> 200+ rooms across Cardiff & nearby cities</p>
+              <p><strong>Price Range:</strong> £50-£120/night</p>
+            </div>
+            <div class="event-closest-bed">
+              <p><strong>Closest Real Beds:</strong></p>
+              <ul>
+                <li>Hotel: Park House (0.3 mi) — £180/night</li>
+                <li>Hostel: Cardiff Central (0.6 mi) — £40/night</li>
+                <li>Cheapest BleacherBeds: Dorm (0.4 mi) — £50/night</li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-primary">View All Beds</a>
+          </article>
+
+          <article class="event-card-large">
+            <div class="event-header">
+              <h3>NBA Finals</h3>
+              <p class="event-date">June 17, 2025 • 9:00 PM ET</p>
+            </div>
+            <div class="event-details">
+              <p><strong>Venue:</strong> TBD (determined by playoffs)</p>
+              <p><strong>Available Beds:</strong> TBD - typically 250-400+</p>
+              <p><strong>Price Range:</strong> Starting at $60/night</p>
+            </div>
+            <div class="event-closest-bed">
+              <p><strong>Note:</strong> Finals location determined during playoffs. BleacherBeds will activate in the host city. Check back during playoffs.</p>
+            </div>
+            <a href="#" class="btn btn-primary">Set Event Alert</a>
+          </article>
+
+          <article class="event-card-large">
+            <div class="event-header">
+              <h3>Stanley Cup Finals Game 1</h3>
+              <p class="event-date">May 24, 2025 • 8:00 PM ET</p>
+            </div>
+            <div class="event-details">
+              <p><strong>Venue:</strong> TBD (host city)</p>
+              <p><strong>Available Beds:</strong> 200-350 expected</p>
+              <p><strong>Price Range:</strong> Starting at $70/night</p>
+            </div>
+            <div class="event-closest-bed">
+              <p><strong>Note:</strong> The Stanley Cup goes to the champion's home city. BleacherBeds will have options in both playoff cities.</p>
+            </div>
+            <a href="#" class="btn btn-primary">Set Event Alert</a>
+          </article>
+
+          <article class="event-card-large">
+            <div class="event-header">
+              <h3>Coachella Valley Music Festival</h3>
+              <p class="event-date">April 12-13 & 19-20, 2025</p>
+            </div>
+            <div class="event-details">
+              <p><strong>Venue:</strong> Empire Polo Club, Indio, CA</p>
+              <p><strong>Available Beds:</strong> 400+ for multi-day stays</p>
+              <p><strong>Price Range:</strong> $60-$120/night</p>
+            </div>
+            <div class="event-closest-bed">
+              <p><strong>Closest Real Beds:</strong></p>
+              <ul>
+                <li>Hotel: Renaissance (10 mi) — $250+/night</li>
+                <li>Hostel: Coachella Valley (5 mi) — $50/night</li>
+                <li>Cheapest BleacherBeds: Festival Village (1 mi) — $60/night</li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-primary">View All Beds</a>
+          </article>
+
+          <article class="event-card-large">
+            <div class="event-header">
+              <h3>Super Bowl LIX</h3>
+              <p class="event-date">February 9, 2026 • 6:30 PM ET</p>
+            </div>
+            <div class="event-details">
+              <p><strong>Venue:</strong> MetLife Stadium, East Rutherford, NJ</p>
+              <p><strong>Available Beds:</strong> 400+ rooms in 25+ facilities</p>
+              <p><strong>Price Range:</strong> $80-$250/night (vs. hotels at $400-$1000+)</p>
+            </div>
+            <div class="event-closest-bed">
+              <p><strong>Closest Real Beds:</strong></p>
+              <ul>
+                <li>Hotel: Secaucus Hilton (0.5 mi) — $500+/night</li>
+                <li>Hostel: NYC (10 mi) — $75/night</li>
+                <li>Cheapest BleacherBeds: MetLife Hub (0.6 mi) — $80/night</li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-primary">View All Beds</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Events -->
+    <section class="pagination-section">
+      <div class="container">
+        <p>Showing 1-7 of 150+ upcoming events across 50+ cities worldwide.</p>
+        <button class="btn btn-secondary">Load More Events</button>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" aria-labelledby="cta-heading">
+      <div class="container">
+        <h2 id="cta-heading">Don't See Your Event?</h2>
+        <p>BleacherBeds covers 2,500+ events annually. Check back soon or contact us to request coverage for a specific event.</p>
+        <div class="hero-cta">
+          <a href="/venues/" class="btn btn-primary">Browse by Venue</a>
+          <a href="/cities/" class="btn btn-secondary">Browse by City</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo" aria-label="BleacherBeds Home">
+            <span class="logo-icon" aria-hidden="true">&#x1F3DF;</span>
+            <span class="logo-text">Bleacher<strong>Beds</strong></span>
+          </a>
+          <p>Ultra-close, ultra-temporary lodging for fans attending major events. Sleep at the stadium — or right beside it.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Venues and events">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="/venues/">Venues</a></li>
+            <li><a href="/events/">Events</a></li>
+            <li><a href="/cities/">Cities</a></li>
+            <li><a href="/closest-bed/">Closest Bed</a></li>
+            <li><a href="/maps/">Maps</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav" aria-label="About and information">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/safety/">Safety</a></li>
+            <li><a href="/rules/">Rules</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+            <li><a href="/partners/">Partners</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav" aria-label="Legal information">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="/legal/">Terms of Service</a></li>
+            <li><a href="/legal/privacy/">Privacy Policy</a></li>
+            <li><a href="/legal/cookies/">Cookie Policy</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 BleacherBeds&trade;. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+</body>
+</html>
